@@ -18,8 +18,8 @@ const Image * App::Descriptor::icon() {
   return ImageStore::AtomIcon;
 }
 
-int App::Descriptor::examinationLevel() {
-  return App::Descriptor::BasicExaminationLevel;
+App::Descriptor::ExaminationLevel App::Descriptor::examinationLevel() {
+  return App::Descriptor::ExaminationLevel::Basic;
 }
 
 App * App::Snapshot::unpack(Container * container) {
