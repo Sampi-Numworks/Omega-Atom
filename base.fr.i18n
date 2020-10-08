@@ -1,5 +1,5 @@
-AtomApp = "Atome"
-AtomAppCapital = "ATOME"
+PseApp = "Atome"
+PseAppCapital = "ATOME"
 AtomName_Hydrogen = "Hydrogène"
 AtomName_Helium = "Hélium"
 AtomName_Lithium = "Lithium"

@@ -7,11 +7,11 @@
 namespace Atom {
 
 I18n::Message App::Descriptor::name() {
-  return I18n::Message::AtomApp;
+  return I18n::Message::PseApp;
 }
 
 I18n::Message App::Descriptor::upperName() {
-  return I18n::Message::AtomAppCapital;
+  return I18n::Message::PseAppCapital;
 }
 
 const Image * App::Descriptor::icon() {
